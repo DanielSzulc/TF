@@ -11,5 +11,5 @@ def unzip_data(filepath):
 
 def walk_through_dir(path_to_dir):
     for dirpath, dirnames, filenames in os.walk(path_to_dir):
-        print(f"There is {len(dirnames)} dirs and {len(filenames)} in '{dirpath}'."
+        print(f"There is {len(dirnames)} dirs and {len(filenames)} in '{dirpath}'.")
     
